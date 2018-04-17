@@ -82,5 +82,10 @@ $f(x) = 3x - x^3$ is odd.
 $f(x) = \sqrt[3]{(1 - x)^2} + \sqrt[3]{(1 + x)^2}$ is even.
 
 # 9
+## b
+You can divide 1 by every number, except for 0, so $D(f) = (-\infty, \infty) \setminus \{0\}$.
+
+$|x| > 0$, so $\frac{1}{|x|} > 0$, and $\lim_{x \to 0} (\frac{1}{|x|}) = \infty$. We can conclude that $R(f) = (0, \infty)$.
+
 # 10
 # 11
