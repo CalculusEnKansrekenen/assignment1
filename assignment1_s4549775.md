@@ -35,6 +35,20 @@ $\begin{aligned}
 From this we can see that $f(x) > 0$, for $x \in (-\infty, -1) \cup (0, 1)$.
 
 # 7
+First we determine the values for $y$ just outside of the interval:
+
+$\begin{aligned}
+	x &= 0: & y &= a + (b - a) * 0\\
+	&&&= a\\
+	x &= 1: & y &= a + (b - a) * 1\\
+	&&&= b\\
+\end{aligned}$
+
+For $a$ and $b$, we can distinguish 2 cases:
+
+* $a > b$: $y \in (b, a)$
+* $b > a$: $y \in (a, b)$
+
 # 8
 # 9
 # 10
