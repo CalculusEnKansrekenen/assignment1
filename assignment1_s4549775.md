@@ -20,6 +20,20 @@ $\begin{aligned}
 
 $f(x) = 0$ for $x \in \{-1, 0, 1\}$.
 
+## b
+We can use the zero points (aka roots) we found in 6a. They tell us at which points we need to sample $f(x)$:
+
+$\begin{aligned}
+	f(-2) &= -2 - (-2)^3 &&= -2 + 8\\
+	&&&= 6 &>0\\
+	f(-\frac{1}{2}) &= -\frac{1}{2} - (-\frac{1}{2})^3 &&= -\frac{1}{2} + \frac{1}{8} &<0\\
+	f(\frac{1}{2}) &= \frac{1}{2} - (\frac{1}{2})^3 &&= \frac{1}{2} - \frac{1}{8} &>0\\
+	f(2) &= 2 - 2^3 &&= 2 - 8\\
+	&&&= -6 &<0
+\end{aligned}$
+
+From this we can see that $f(x) > 0$, for $x \in (-\infty, -1) \cup (0, 1)$.
+
 # 7
 # 8
 # 9
