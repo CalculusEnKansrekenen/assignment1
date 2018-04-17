@@ -70,6 +70,17 @@ A function is called even if $f(x) = f(-x)$, and odd if $f(-x) = -f(x)$.
 
 $f(x) = 3x - x^3$ is odd.
 
+## b
+* even?
+
+  $\begin{aligned}
+  	f(x) &\stackrel{?}{=} f(-x)\\
+  	\sqrt[3]{(1 - x)^2} + \sqrt[3]{(1 + x)^2} &\stackrel{?}{=} \sqrt[3]{(1 - (-x))^2} + \sqrt[3]{(1 + (-x))^2}\\
+  	\sqrt[3]{(1 - x)^2} + \sqrt[3]{(1 + x)^2} &= \sqrt[3]{(1 + x)^2} + \sqrt[3]{(1 -x)^2}\\
+  \end{aligned}$
+
+$f(x) = \sqrt[3]{(1 - x)^2} + \sqrt[3]{(1 + x)^2}$ is even.
+
 # 9
 # 10
 # 11
