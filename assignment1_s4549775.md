@@ -50,6 +50,26 @@ For $a$ and $b$, we can distinguish 2 cases:
 * $b > a$: $y \in (a, b)$
 
 # 8
+A function is called even if $f(x) = f(-x)$, and odd if $f(-x) = -f(x)$.
+
+## a
+* even?
+
+  $\begin{aligned}
+  	f(x) &\stackrel{?}{=} f(-x)\\
+  	3x - x^3 &\stackrel{?}{=} -3x - (-x)^3\\
+  	&\neq -3x + x^3\\
+  \end{aligned}$
+* odd?
+
+  $\begin{aligned}
+  	f(-x) &\stackrel{?}{=} -f(x)\\
+  	-3x - (-x)^3 &\stackrel{?}{=} -(3x - x^3)\\
+  	-3x + x^3 &= -3x + x^3\\
+  \end{aligned}$
+
+$f(x) = 3x - x^3$ is odd.
+
 # 9
 # 10
 # 11
