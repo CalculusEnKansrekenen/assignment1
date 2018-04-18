@@ -82,6 +82,11 @@ $f(x) = 3x - x^3$ is odd.
 $f(x) = \sqrt[3]{(1 - x)^2} + \sqrt[3]{(1 + x)^2}$ is even.
 
 # 9
+## a
+We cannot take the square root of negative numbers (unless we use imaginary numbers), so $7 - x^2 \geq 0$ must hold. $x^2 \leq 7$ for $x \leq \sqrt{7}$, so we can conclude that $D(f) = [-\sqrt{7}, \sqrt{7}]$.
+
+$f(0) = \sqrt{7} + 1$ is the highest value f(x) reaches, and $f(\sqrt{7}) = 1$ is the lowest value. $R(f) = [1, \sqrt{7} + 1]$.
+
 ## b
 You can divide 1 by every number, except for 0, so $D(f) = (-\infty, \infty) \setminus \{0\}$.
 
